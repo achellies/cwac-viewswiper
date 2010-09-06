@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.commonsware.cwac.swiper.ViewSwiper
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/swiper"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gestureColor="#00000000"
+	android:uncertainGestureColor="#00000000"
+>
+	<TextView
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textColor="#FF00FF00"
+		android:text="This is the first panel"
+	/>
+	<TextView
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textColor="#FFFF0000"
+		android:text="This is the second panel"
+	/>
+	<TextView
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textColor="#FFFFFF00"
+		android:text="This is the third panel"
+	/>
+</com.commonsware.cwac.swiper.ViewSwiper>
+

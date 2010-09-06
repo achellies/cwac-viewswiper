@@ -69,11 +69,11 @@
     </target>
 
     <target name="dist-full" depends="dist-dir">
-        <delete file="dist/CWAC-ColorMixer-full.zip" />
-        <zip destfile="dist/CWAC-ColorMixer-full.zip">
+        <delete file="dist/CWAC-ViewSwiper-full.zip" />
+        <zip destfile="dist/CWAC-ViewSwiper-full.zip">
             <zipfileset
                 dir="."
-                prefix="CWAC-ColorMixer"
+                prefix="CWAC-ViewSwiper"
                 includes="**"
                 excludes="bin/**, dist/**, gen/**, .git/**, .gitignore, demo/bin/**, demo/gen/**"
             />
@@ -81,11 +81,11 @@
     </target>
 
     <target name="dist-lite" depends="dist-dir">
-        <delete file="dist/CWAC-ColorMixer-lite.zip" />
-        <zip destfile="dist/CWAC-ColorMixer-lite.zip">
+        <delete file="dist/CWAC-ViewSwiper-lite.zip" />
+        <zip destfile="dist/CWAC-ViewSwiper-lite.zip">
             <zipfileset
                 dir="."
-                prefix="CWAC-ColorMixer"
+                prefix="CWAC-ViewSwiper"
                 includes="**"
                 excludes="bin/**, dist/**, gen/**, .git/**, .gitignore, demo/**"
             />

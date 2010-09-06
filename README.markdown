@@ -34,7 +34,7 @@ project-level resources.
 
 Version
 -------
-This is version v0.1.0 of this module, meaning it is brand-spankin'-new.
+This is version v0.1.1 of this module, meaning it is brand-spankin'-new.
 
 Demo
 ----
@@ -56,6 +56,7 @@ indicate which CWAC module you have questions about.
 
 Release Notes
 -------------
+v0.1.1: Fixed bug in Ant packaging tasks
 v0.1.0: initial release
 
 Who Made This?

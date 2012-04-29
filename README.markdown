@@ -1,5 +1,10 @@
 CWAC ViewSwiper: Let Your Users Flip Off Your Views
 ===================================================
+
+**THIS PROJECT IS DISCONTINUED — USE AT YOUR OWN RISK**
+
+(besides, you probably really want [`ViewPager`](http://developer.android.com/reference/android/support/v4/view/ViewPager.html), anyway)
+
 `ViewFlipper` is a handy container in Android, showing one child
 at a time out of an arbitrary number of children. In that sense,
 it is a bit like tabs, just without, y'know, the tabs. Instead, it
@@ -50,15 +55,7 @@ file.
 
 Questions
 ---------
-If you have questions regarding the use of this code, please post a question
-on [StackOverflow](http://stackoverflow.com/questions/ask) tagged with `commonsware` and `android`. Be sure to indicate
-what CWAC module you are having issues with, and be sure to include source code 
-and stack traces if you are encountering crashes.
-
-If you have encountered what is clearly a bug, please post an [issue](https://github.com/commonsguy/cwac-viewswiper/issues). Be certain to include complete steps
-for reproducing the issue.
-
-Do not ask for help via Twitter.
+**THIS PROJECT IS UNSUPPORTED**
 
 Release Notes
 -------------
